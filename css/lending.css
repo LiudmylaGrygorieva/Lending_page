@@ -6,11 +6,6 @@
     padding: 0;
 }
 
-/* *html, body {
-    width: 100%;
-    height: 100%;
-}*/
-
 .box {
     background-image: url(../img/backgraubd.jpg);
     filter: hue-rotate(30deg), opacity(0.3), blur(3px); 
@@ -36,25 +31,20 @@ h1::after{
 .box1 {
     position: relative;
 }
-    
-/* .box1+label {
-    display: inline-block;
-    border: 1px solid black;
-    width: 250px;
- }*/
+  
 .box1 input[type="e-mail"] {
     display: inline-block; 
     width: 400px;
-     height: 40px;
-     padding-left: 50px;
-     margin-left: 200px;
-     border: 1px solid black;
-     box-shadow: 2px 2px 3px black;
+    height: 40px;
+    padding-left: 50px;
+    margin-left: 200px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    background-image: url(../sprite/css_sprites.png) no-repeat;
+    background-position: -449px -548px;
+    }
 }
- .box1 input[type="e-mail"]::after {
-    background: url(../sprite/css_sprites.png);
-     background-position: ;
- }
+
 
 .box1 input[type="submit"] {
     width: 200px;
@@ -86,6 +76,34 @@ h1::after{
     margin-right: 20px;
 }
 
+.box2 {
+    background-image: url(../sprite/css_sprites.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
+}
+
+.box3 {
+    background-image: url(../sprite/css_sprites.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    backgro
+    und-position: 5px;
+}
+.box4 {
+    background-image: url(../sprite/css_sprites.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
+}
+
+.box5 {
+    background-image: url(../sprite/css_sprites.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
+}
+
 .link { 
     display: none;
 }
@@ -96,141 +114,28 @@ h1::after{
     font-size: 15px;
 }
 
-.content {
-    width: 400px;
-    height: 50px;
-    margin-left: 500px;
-}
-
-.spryte1  {
+.spryte {
     display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background: url(../sprite/css_sprites.png);
-    background-position: ;
 }
  
-.spryte1::before  {
-    display: inline-block;
+.spryte::before  {
     cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
+    background-image: url(../sprite/css_sprites.png);
 }
 
-.spryte2 {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+/*.spryte:nth-child(1) {
     background: url(../sprite/css_sprites.png);
     background-position: ;
 }
- 
-.spryte2::before  {
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.spryte::before:nth-child(1) {
     background: url(../sprite/css_sprites.png);
     background-position: ;
-}
+}*/
 
-.spryte3  {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
- 
-.spryte3::before  {
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
-
-.spryte4  {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
- 
-.spryte4::before  {
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
-
-.spryte5  {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
- 
-.spryte5::before  {
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
-
-.spryte6  {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
- 
-.spryte6::before  {
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
-
-.spryte7  {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
-}
- 
-.spryte7::before  {
-    display: inline-block;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url(../sprite/css_sprites.png);
-    background-position: ;
+.spryte .oi1 {
+    background-position:-10 -10 ;
 }
